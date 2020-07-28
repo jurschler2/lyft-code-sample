@@ -4,6 +4,12 @@ def cut_string(string_input, string_length):
     """ 
     Accepts a string and a numeric length, responds with a new 
     string comprised of every third character from input string
+
+    >>> cut_string('abcdefg', 7)
+    'cf'
+
+    >>> cut_string('ab', 2)
+    ''
     """
 
     new_string = ''
